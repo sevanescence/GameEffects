@@ -1,0 +1,13 @@
+name: GameEffects
+version: ${project.version}
+main: com.makotomiyamoto.gameeffects.GameEffects
+prefix: GameEffects
+authors: [MakotoMiyamoto]
+commands:
+  CreateTestCircle:
+    permission: "nt.admin"
+    permission-message: "no"
+    description: "Create a circle that will revert back to its original form in exactly one second."
+    usage: "/CreateTestCircle <int_radius> <int_decrement_Radii>"
+    aliases:
+      - "adminctc"
